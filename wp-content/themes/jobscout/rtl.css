@@ -1,0 +1,876 @@
+/*
+Theme Name: JobScout
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+.header-t .right-block {
+	float: left;
+	text-align: left;
+}
+
+.secondary-nav ul.nav-menu > li:first-child > a {
+	padding-left: 17px;
+	padding-right: 0;
+}
+
+.secondary-nav ul li .sub-menu {
+	left: auto;
+	right: 0;
+	box-shadow: -5px 10px 10px rgba(0,0,0,0.1);
+}
+
+.secondary-nav ul li .sub-menu .sub-menu {
+	left: auto;
+	right: 100%;
+}
+
+.site-branding.logo-text .site-title-wrap {
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+.header-main .menu-wrap, 
+.menu-wrap .btn-wrap {
+	text-align: left;
+}
+
+.main-navigation ul li ul {
+	text-align: right;
+	left: auto;
+	right: 0;
+	box-shadow: -5px 10px 10px rgba(0,0,0,0.1);
+}
+
+.main-navigation ul li ul ul {
+	left: auto;
+	right: 100%;
+}
+
+.banner-caption .job_filters .search_jobs input, 
+.banner-caption .job_filters .search_jobs select {
+	border-left: none;
+	border-right: 1px solid #e6e6e6;
+}
+
+.banner-caption .job_filters .search_jobs > div:first-child input {
+	border-right: none;
+}
+
+.banner-caption .job_filters .search_jobs input[type="submit"] {
+	border-left: none;
+}
+
+select {
+	background-position: 12px 50%;
+	padding-right: 15px !important;
+	padding-left: 30px;
+}
+
+.top-job-section .row div.job_listings article {
+	margin-right: 0;
+	margin-left: 2.5%;
+}
+
+.top-job-section .row div.job_listings article:nth-child(2n) {
+	margin-left: 0;
+}
+
+.top-job-section .row div.job_listings article .job-title-wrap {
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+.top-job-section .row div.job_listings article .entry-title {
+	padding-right: 0;
+	padding-left: 30px;
+}
+
+.featured-label {
+	right: auto;
+	left: -5px;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-transform-origin: bottom left;
+	-moz-transform-origin: bottom left;
+	transform-origin: bottom left;
+}
+
+.step-wrap .step-block::after {
+	left: auto;
+	right: 50%;
+}
+
+.entry-meta > span:last-child {
+	margin-right: 15px;
+	padding-right: 15px;
+	border-right: 1px solid rgba(0,0,0,0.5);
+}
+
+.entry-meta > span:first-child {
+	margin-right: 0;
+	padding-right: 0;
+	border-right: none;
+}
+
+.widget_rrtc_testimonial_widget .img-holder {
+	left: auto;
+	right: 0;
+	text-align: left;
+	padding-right: 0;
+	padding-left: 10px;
+}
+
+.widget_rrtc_testimonial_widget .img-holder + .text-holder .testimonial-meta {
+	text-align: right;
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.site-footer .grid:not(.column-1) > .col {
+	margin-right: 0;
+	margin-left: 3%;
+}
+
+.site-footer .grid:not(.column-1) > .col:last-child {
+	margin-left: 0;
+}
+
+ul.accordion li a.toggle {
+	padding-right: 0;
+	padding-left: 20px;
+}
+
+ul.accordion li a::after {
+	right: auto;
+	left: 0;
+}
+
+.widget_raratheme_popular_post ul li .post-thumbnail, 
+.widget_raratheme_recent_post ul li .post-thumbnail {
+	float: right;
+	margin-left: 15px;
+	margin-right: 0;
+}
+
+.widget_categories ul li a {
+	padding-right: 0;
+	padding-left: 10px;
+}
+
+#back-to-top {
+	right: auto;
+	left: 20px;
+}
+
+.footer-b span, 
+.footer-b a {
+	display: inline-block;
+}
+
+form.search-form label {
+	float: right;
+}
+
+form.search-form input.search-field {
+	border-radius: 0 5px 5px 0;
+	border-left: none;
+	border-right: 1px solid #e6e6e6;
+}
+
+form.search-form input.search-submit {
+	border-radius: 5px 0 0 5px;
+}
+
+.widget-area .widget ul ul, 
+.site-footer .widget ul ul {
+	margin-left: 0;
+	margin-right: 15px;
+}
+
+.blossomthemes-email-newsletter-wrapper form label .subscribe-inner-wrap {
+	padding-left: 0;
+	padding-right: 25px;
+}
+
+.blossomthemes-email-newsletter-wrapper form label .check-mark {
+	left: auto;
+	right: 0;
+}
+
+.blossomthemes-email-newsletter-wrapper form label .text {
+	text-align: right;
+}
+
+.contact-info ul.contact-list li {
+	padding-left: 0;
+	padding-right: 35px;
+}
+
+.contact-info ul.contact-list li svg {
+	left: auto;
+	right: 0;
+}
+
+.widget_raratheme_popular_post ul li .entry-header .comment-count, 
+.widget_raratheme_popular_post ul li .entry-header .view-count {
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+.navigation.pagination .page-numbers.next {
+	float: left;
+	padding-right: 30px;
+	padding-left: 55px;
+}
+
+.navigation.pagination .page-numbers.next::before {
+	left: 30px;
+	right: auto;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+	-webkit-transform-origin: left;
+	-moz-transform-origin: left;
+	transform-origin: left;
+}
+
+.navigation.pagination .page-numbers.prev {
+	float: right;
+	padding-left: 30px;
+	padding-right: 55px;
+}
+
+.navigation.pagination .page-numbers.prev::before {
+	left: auto;
+	right: 30px;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+	-webkit-transform-origin: right;
+	-moz-transform-origin: right;
+	transform-origin: right;
+}
+
+.entry-footer a + .edit-link {
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+a.readmore-link svg {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.single .site-main .category a {
+	margin-right: 0;
+	padding-right: 0;
+	border-right: none;
+	margin-left: 10px;
+	padding-left: 10px;
+	border-left: 1px solid;
+}
+
+.single .site-main .category a:last-child {
+	margin-left: 0;
+	padding-left: 0;
+	border-left: none;
+}
+
+.single .site-main .entry-content ul li {
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+.single .site-main .entry-content ul li::before {
+	left: auto;
+	right: 0;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.single .site-main footer.entry-footer .entry-footer-right > span, 
+.single .site-main footer.entry-footer .entry-footer-right .jbp_single_ajax_like {
+	margin-right: 0;
+	margin-left: 40px;
+}
+
+.single .site-main footer.entry-footer .entry-footer-right > span:last-child {
+	margin-left: 0;
+}
+
+.single .site-main footer.entry-footer .job-share .social-list {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.comment-navigation .nav-previous, 
+.posts-navigation .nav-previous, 
+.post-navigation .nav-previous {
+	float: right;
+}
+
+.post-navigation .nav-links .nav-previous a {
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+.post-navigation .nav-links .nav-previous a::before {
+	left: auto;
+	right: 0;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.comment-navigation .nav-next, 
+.posts-navigation .nav-next, 
+.post-navigation .nav-next {
+	float: left;
+	text-align: left;
+}
+
+.post-navigation .nav-next a {
+	padding-right: 0;
+	padding-left: 30px;
+}
+
+.post-navigation .nav-next a::before {
+	right: auto;
+	left: 0;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.single .author-bio .title {
+	text-align: right;
+}
+
+.author-content {
+	text-align: right;
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+.author-content ul.social-list li:first-child {
+	margin-left: 15px;
+	margin-right: 0;
+}
+
+.author-content ul.social-list li:last-child {
+	margin-right: 15px;
+	margin-left: 0;
+}
+
+.newsletter-block .blossomthemes-email-newsletter-wrapper form input[type="text"], 
+.newsletter-block .blossomthemes-email-newsletter-wrapper form input[type="email"] {
+	border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+.newsletter-block .blossomthemes-email-newsletter-wrapper form input:first-child {
+	border-radius: 0 5px 5px 0;
+	border-left: none;
+}
+
+.newsletter-block .blossomthemes-email-newsletter-wrapper form input[name="subscribe-fname"] + input[name="subscribe-email"] {
+	border-left: none;
+}
+
+.newsletter-block .blossomthemes-email-newsletter-wrapper form input[type="submit"] {
+	border-radius: 5px 0 0 5px;
+}
+
+.additional-posts .article-wrap .entry-meta > span:not(:last-child), 
+.recent-posts .article-wrap .entry-meta > span:not(:last-child) {
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.comments-area .comment-body {
+	padding-left: 0;
+	padding-right: 95px;
+}
+
+.comments-area .comment-author img {
+	left: auto;
+	right: 0;
+}
+
+.comment-body .reply {
+	right: auto;
+	left: 0;
+}
+
+.comment-body .reply a.comment-reply-link {
+	padding-right: 0;
+	padding-left: 20px;
+	background-position: center left;
+}
+
+.comments-area ol.children {
+	padding-left: 0;
+	padding-right: 65px;
+}
+
+.comment-form p.comment-form-author, 
+.comment-form p.comment-form-email, 
+.comment-form p.comment-form-url {
+	margin-right: 0;
+	margin-left: 2.5%;
+}
+
+.comment-form p.comment-form-url {
+	margin-left: 0;
+}
+
+table {
+	text-align: right;
+}
+
+.site-main .entry-content div.job_listings div.job_listings article .job-title-wrap {
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+.site-main .entry-content div.job_listings div.job_listings article .entry-meta .job-type {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.site-main .entry-content div.job_listings div.job_listings article .entry-meta .salary-amt, 
+.site-main .entry-content div.job_listings div.job_listings article .entry-meta .company-address {
+	margin-right: 0;
+	margin-left: 40px;
+}
+
+.job_filters .job_types li input[type="checkbox"] {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.job_filters .search_jobs div.filter_first, 
+.job_filters .search_jobs div.search_keywords {
+	padding-right: 0;
+	padding-left: 0.5em;
+}
+.job_filters .search_jobs div.filter_wide, 
+.job_filters .search_jobs div.search_categories {
+	padding-left: 0;
+}
+
+.job_filters .job_types li {
+	float: right;
+	border-right: none;
+	border-left: 1px solid #eee;
+}
+
+.job_filters .job_types li:last-child {
+	border-left: none;
+}
+
+.single-job .additional-posts .article-wrap .job-title-wrap, 
+.recent-posts .article-wrap .entry-header, 
+.error404 .additional-posts .job-title-wrap {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.single-job .site-content .job-title-wrap .entry-meta .job-type, 
+.error404 .additional-posts .entry-meta .job-type {
+    float: left;
+}
+
+.single-job .site-content .job-title-wrap .entry-meta > div:first-child, 
+.error404 .additional-posts .entry-meta > div:first-child {
+    margin-right: 0;
+}
+
+.single-job .site-content .job-title-wrap .job-type, 
+.error404 .additional-posts .entry-meta .job-type {
+    text-align: left;
+}
+
+.single-job .additional-posts .article-wrap .job-title-wrap .entry-meta svg, 
+.error404 .additional-posts .entry-meta svg {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.single-job .site-content .job-title-wrap .entry-meta > div .currency, 
+.single-job .site-content .job-title-wrap .entry-meta > div .fas, 
+.error404 .additional-posts .entry-meta > div .currency, 
+.error404 .additional-posts .entry-meta > div .fas {
+    margin-right: 0;
+    margin-left: 3px;
+}
+
+/*========================
+WOOCOMMERCE RTL
+========================*/
+.woocommerce #secondary .widget_shopping_cart ul.product_list_widget li img {
+	float: left;
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+.woocommerce #secondary .widget_shopping_cart ul li {
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+.woocommerce #secondary .widget_shopping_cart .buttons .button {
+	margin-left: 0;
+}
+
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item a, 
+.widget.widget_layered_nav_filters ul li a {
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item a::before, 
+.widget.widget_layered_nav_filters ul li a::before {
+	left: auto;
+	right: 0;
+}
+
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item .count, 
+.woocommerce #secondary .widget_price_filter .price_slider_amount .price_label {
+	float: left;
+}
+
+.widget.woocommerce ul li.cat-parent .cat-toggle {
+	right: auto;
+	left: 0;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.woocommerce #secondary .widget_product_tag_cloud .tagcloud a {
+	float: right;
+	margin-right: 0;
+	margin-left: 6px;
+}
+
+.woocommerce ul.products li.product .onsale, .single-product .product .onsale {
+	left: auto;
+	right: 15px;
+}
+
+.woocommerce ul.order_details li {
+	margin-left: 0;
+	border-left: none;
+}
+
+.woocommerce-order-received .woocommerce ul.order_details li strong {
+	margin-left: 0;
+	margin-right: 20px;
+	left: auto;
+	right: 140px;
+}
+
+.search .site-content .page-header .search-form .search-field {
+	padding-left: 15px;
+	padding-right: 0;
+}
+
+.search .site-content .page-header .search-form .search-submit {
+	background-position: center left;
+}
+
+.navigation.pagination .page-numbers.prev {
+	float: right;
+	padding-left: 30px;
+	padding-right: 55px;
+}
+
+.navigation.pagination .page-numbers.prev::before {
+	left: auto;
+	right: 30px;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.navigation.pagination .page-numbers.next {
+	float: left;
+	padding-right: 30px;
+	padding-left: 55px;
+}
+
+.navigation.pagination .page-numbers.next::before {
+	left: 30px;
+	right: auto;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.widget_search .search-form label {
+	float: right;
+}
+
+.widget_search .search-form .search-field {
+	border-radius: 0 5px 5px 0px;
+}
+
+.error404 .error-404 .search-form .search-submit, 
+.widget_search .search-form .search-submit {
+	border-radius: 5px 0 0 5px;
+}
+
+.widget ul ul {
+	margin-left: 0;
+	margin-right: 15px;
+}
+
+.comment-navigation .nav-previous, 
+.posts-navigation .nav-previous, 
+.post-navigation .nav-previous {
+	float: right;
+}
+
+.comment-navigation .nav-next, 
+.posts-navigation .nav-next, 
+.post-navigation .nav-next {
+	text-align: left;
+	float: left;
+}
+
+.posts-navigation .nav-links a {
+	padding-left: 25px;
+	padding-right: 40px;
+}
+
+.posts-navigation .nav-links .nav-next a {
+	padding-left: 40px;
+	padding-right: 25px;
+}
+
+.posts-navigation .nav-links a svg {
+	left: auto;
+	right: 20px;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.posts-navigation .nav-links .nav-next a svg {
+	left: 20px;
+	right: auto;
+}
+
+.post-navigation .nav-previous a {
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+.post-navigation .nav-previous a .meta-nav svg {
+	left: auto;
+	right: 0;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.post-navigation .nav-next a {
+	padding-right: 0;
+	padding-left: 30px;
+	float: left;
+}
+
+.post-navigation .nav-next a .meta-nav svg {
+	right: auto;
+	left: 0;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.post-navigation .nav-next a .post-title {
+	float: left;
+}
+
+.post-navigation .nav-links .post-img {
+	left: auto;
+	right: 30px;
+}
+
+.post-navigation .nav-links .nav-next .post-img {
+	right: auto;
+	left: 30px;
+}
+
+.single.style2 .content-area .article-meta .byline .author a {
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+@media screen and (max-width: 1199px) {
+	.site-footer .grid.column-4 > .col:nth-child(3n) {
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.responsive-nav {
+		right: auto;
+		left: 0;
+		-webkit-transform: translateX(-100%);
+		-moz-transform: translateX(-100%);
+		transform: translateX(-100%);
+	}
+
+	.menu-active .site {
+		-webkit-transform: translateX(350px);
+		-moz-transform: translateX(350px);
+		transform: translateX(350px);
+	}
+
+	.responsive-nav ul li .submenu-toggle {
+		right: auto;
+		left: 5px;
+	}
+
+	.secondary-nav ul.nav-menu > li:first-child > a {
+		padding-right: 20px;
+	}
+
+	.top-job-section .row div.job_listings article .job-title-wrap {
+		padding-right: 0;
+	}
+
+	.top-job-section .row div.job_listings article .entry-title {
+		padding-left: 0;
+	}
+
+	.site-footer .grid.column-4 > .col:nth-child(3n) {
+		margin-right: 0;
+	}
+
+	.site-footer .grid.column-4 > .col:nth-child(2n), 
+	.site-footer .grid.column-3 > .col:nth-child(2n) {
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.menu-active .site {
+		-webkit-transform: translateX(320px);
+		-moz-transform: translateX(320px);
+		transform: translateX(320px);
+	}
+
+	.banner-caption .job_filters .search_jobs input, 
+	.banner-caption .job_filters .search_jobs select {
+		border-right: none;
+	}
+
+	.widget_rrtc_testimonial_widget .img-holder + .text-holder .testimonial-meta, 
+	.widget_rrtc_testimonial_widget .img-holder {
+		text-align: center;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.single .site-main footer.entry-footer .entry-footer-right > span, 
+	.single .site-main footer.entry-footer .entry-footer-right .jbp_single_ajax_like {
+		margin-left: 20px;
+	}
+
+	.comment-navigation .nav-previous, 
+	.posts-navigation .nav-previous, 
+	.post-navigation .nav-previous, 
+	.comment-navigation .nav-next, 
+	.posts-navigation .nav-next, 
+	.post-navigation .nav-next {
+		float: none;
+	}
+
+	.author-content {
+		padding-right: 0;
+	}
+
+	.newsletter-block .blossomthemes-email-newsletter-wrapper form input:first-child, 
+	.newsletter-block .blossomthemes-email-newsletter-wrapper form input[name="subscribe-fname"] + input[name="subscribe-email"] {
+		border-left: 1px solid rgba(0,0,0,0.1);
+		border-radius: 5px;
+	}
+
+	.newsletter-block .blossomthemes-email-newsletter-wrapper form input[type="submit"] {
+		border-radius: 5px;
+	}
+
+	.comments-area .comment-body {
+		padding-right: 0;
+	}
+
+	.comment-author.vcard {
+		padding-right: 0;
+		padding-left: 70px;
+	}
+
+	.comments-area ol.children {
+		padding-left: 0;
+		padding-right: 25px;
+	}
+
+	.comment-form p.comment-form-author, 
+	.comment-form p.comment-form-email, 
+	.comment-form p.comment-form-url {
+		margin-left: 0;
+	}
+
+	#job-manager-job-dashboard table td {
+		padding-left: 15px;
+		padding-right: 165px;
+	}
+
+	#job-manager-job-dashboard .job-manager-jobs tr td::before {
+		left: auto;
+		right: 0;
+	}
+
+	.site-main .entry-content div.job_listings div.job_listings article .job-title-wrap {
+		padding-right: 0;
+	}
+
+	.site-main .entry-content div.job_listings div.job_listings article .entry-meta .salary-amt, 
+	.site-main .entry-content div.job_listings div.job_listings article .entry-meta .company-address {
+		margin-left: 20px;
+	}
+
+	.site-main .entry-content div.job_listings div.job_listings article .entry-meta .job-type {
+		margin-right: 0;
+	}
+
+	.job_filters .search_jobs div.filter_first, 
+	.job_filters .search_jobs div.search_keywords {
+		padding-left: 0;
+	}
+
+	.single-job .additional-posts .article-wrap .job-title-wrap, 
+	.recent-posts .article-wrap .entry-header, 
+	.error404 .additional-posts .job-title-wrap {
+		padding-right: 0;
+	}
+
+	.single-job .site-content .job-title-wrap .entry-meta .job-type, 
+	.error404 .additional-posts .entry-meta .job-type {
+		float: none;
+	}
+
+	.single-job .site-content .job-title-wrap .job-type, 
+	.error404 .additional-posts .entry-meta .job-type {
+		text-align: right;
+	}
+}

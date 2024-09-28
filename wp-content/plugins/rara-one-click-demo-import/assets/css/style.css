@@ -1,0 +1,172 @@
+/* Overriding WordPress native styles */
+
+.rrdi h2 {
+	text-align: inherit;
+}
+
+.rrdi h2:first-child,
+.rrdi h3:first-child {
+	margin-top: 0;
+}
+
+.rrdi hr {
+	margin: 2.62em 0;
+}
+
+.feature-section + hr {
+	margin-top: 0;
+}
+
+#wpbody select {
+	height: auto;
+	padding: .62em;
+	line-height: inherit;
+}
+
+.rrdi .notice {
+	display: block !important;
+	margin-top: 1.4em;
+	margin-bottom: 0;
+}
+
+/* Plugin elements */
+
+.RRDI__demo-import-files {
+	width: 100%;
+}
+
+.RRDI__demo-import-preview-image-message {
+	font-style: italic;
+}
+
+/* Plugin title */
+
+.RRDI__title:before {
+	width: auto;
+	height: auto;
+	font-size: inherit;
+}
+
+/* Plugin intro text */
+
+.RRDI__intro-text ul {
+	padding: 0 4%;
+	list-style-type: square;
+}
+
+/* Plugin multi select import and Plugin file upload containers */
+
+.RRDI__file-upload,
+.RRDI__multi-select-import,
+.RRDI__demo-import-notice:not(:empty) {
+	padding: 4%;
+	margin: 1.62em 0;
+	background-color: #ffffff;
+	border: 1px solid #e5e5e5;
+}
+
+.RRDI__file-upload {
+	margin: 0;
+	margin-bottom: -1px;
+}
+
+.RRDI__file-upload span {
+	font-size: .81em;
+	font-weight: normal;
+	opacity: .66;
+}
+
+.RRDI__demo-import-notice:not(:empty) {
+	border: 0;
+	border-left: 4px solid #00a0d2;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+[dir="rtl"] .RRDI__demo-import-notice:not(:empty) {
+	border: 0;
+	border-right: 4px solid #00a0d2;
+}
+
+/* Plugin button */
+
+.RRDI__button-container {
+	margin-top: 1.62em;
+}
+
+/* AJAX loader */
+
+.RRDI__ajax-loader {
+	font-size: 1.5em;
+	display: none;
+}
+
+.RRDI__ajax-loader .spinner {
+	display: inline-block;
+	float: none;
+	visibility: visible;
+	margin-bottom: 6px;
+}
+
+#tabs-container .tabs-menu{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+	text-transform: capitalize;
+}
+
+#tabs-container .tabs-menu li{
+	float: left;
+	border: 1px solid transparent;
+	margin: 0;
+}
+
+#tabs-container .tabs-menu li.current{
+	border: 1px solid #ddd;
+	background: #fff;
+	border-bottom: 1px solid transparent;
+}
+
+#tabs-container .tabs-menu li a{
+    text-decoration: none;
+    color: #444;
+    display: block;
+    padding: 10px 10px 10px;
+    font-size: 18px;
+}
+
+#tabs-container .tabs-menu li a:focus{
+	box-shadow: none;
+}
+
+#tabs-container .tab-content{
+	background: #fff;
+	padding: 10px .9em;
+	display: none;
+	border: 1px solid #ddd;
+	margin-top: -1px;
+}
+#Demo_Import li {
+    line-height: 35px;
+}
+div#Demo_Import {
+    font-size: 15px;
+}
+.home-page-url{
+	display: none;
+}
+
+.rddi-import-intro p,
+.rddi-import-intro{
+	font-size: 19px;
+	line-height: 25px;
+}
+
+.rddi-import-intro ul{
+	list-style: square;
+	padding-left: 26px;
+}
+.rddi-import-intro ul li span{
+	font-weight: 800;
+}

@@ -1,0 +1,8 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">rara-portfolio</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">rara_portfolio_categories</taxonomy>
+  </taxonomies>
+</wpml-config>

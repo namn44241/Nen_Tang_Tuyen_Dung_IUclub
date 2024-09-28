@@ -1,0 +1,195 @@
+
+---Downloaded files---
+The import files for: JobScout Demo were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/tuyen_dung
+Data file = C:\xampp\htdocs\tuyen_dung/wp-content/uploads/rara-demo-pack/jobscout-demo-content/content/jobscout.xml
+Widget file = C:\xampp\htdocs\tuyen_dung/wp-content/uploads/rara-demo-pack/jobscout-demo-content/content/jobscout.wie
+Customizer file = C:\xampp\htdocs\tuyen_dung/wp-content/uploads/rara-demo-pack/jobscout-demo-content/content/jobscout.dat
+
+------
+Completed AJAX call number: 1
+[WARNING] Failed to import product_cat Accessories
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_cat Decor
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import pa_color Gray
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import pa_size Large
+[WARNING] Failed to import pa_size Medium
+[WARNING] Failed to import product_cat Music
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import pa_size Small
+[WARNING] Failed to import product_cat Tshirts
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import pa_color Yellow
+
+
+------
+Completed AJAX call number: 2
+[WARNING] Failed to import product_cat Accessories
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_cat Decor
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import pa_color Gray
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import pa_size Large
+[WARNING] Failed to import pa_size Medium
+[WARNING] Failed to import product_cat Music
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import pa_size Small
+[WARNING] Failed to import product_cat Tshirts
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import pa_color Yellow
+
+
+---Importing content---
+[WARNING] Failed to import product_cat Accessories
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_cat Decor
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import pa_color Gray
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import pa_size Large
+[WARNING] Failed to import pa_size Medium
+[WARNING] Failed to import product_cat Music
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import pa_size Small
+[WARNING] Failed to import product_cat Tshirts
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import pa_color Yellow
+[WARNING] Failed to import "V-Neck T-Shirt": Invalid post type product
+[WARNING] Failed to import "Hoodie": Invalid post type product
+[WARNING] Failed to import "Hoodie with Logo": Invalid post type product
+[WARNING] Failed to import "T-Shirt": Invalid post type product
+[WARNING] Failed to import "Beanie": Invalid post type product
+[WARNING] Failed to import "Belt": Invalid post type product
+[WARNING] Failed to import "Cap": Invalid post type product
+[WARNING] Failed to import "Sunglasses": Invalid post type product
+[WARNING] Failed to import "Hoodie with Pocket": Invalid post type product
+[WARNING] Failed to import "Hoodie with Zipper": Invalid post type product
+[WARNING] Failed to import "Long Sleeve Tee": Invalid post type product
+[WARNING] Failed to import "Polo": Invalid post type product
+[WARNING] Failed to import "Album": Invalid post type product
+[WARNING] Failed to import "Single": Invalid post type product
+[WARNING] Failed to import "T-Shirt with Logo": Invalid post type product
+[WARNING] Failed to import "Beanie with Logo": Invalid post type product
+[WARNING] Failed to import "Logo Collection": Invalid post type product
+[WARNING] Failed to import "WordPress Pennant": Invalid post type product
+[WARNING] Failed to import "Subscribe now": Invalid post type subscribe-form
+[WARNING] Failed to import "Contact": Invalid post type wpcf7_contact_form
+[WARNING] Failed to import "Job Application Form": Invalid post type wpcf7_contact_form
+[WARNING] Could not find the post parent for "album-1" (post #882)
+[WARNING] Could not find the post parent for "beanie-2" (post #883)
+[WARNING] Could not find the post parent for "beanie-with-logo-1" (post #884)
+[WARNING] Could not find the post parent for "belt-2" (post #885)
+[WARNING] Could not find the post parent for "cap-2-600&#215;600" (post #886)
+[WARNING] Could not find the post parent for "hoodie-with-logo-2" (post #887)
+[WARNING] Could not find the post parent for "hoodie-2-600&#215;600" (post #888)
+[WARNING] Could not find the post parent for "hoodie-with-zipper-2-600&#215;600" (post #889)
+[WARNING] Could not find the post parent for "logo-1" (post #890)
+[WARNING] Could not find the post parent for "polo-2" (post #891)
+[WARNING] Could not find the post parent for "single-1" (post #892)
+[WARNING] Could not find the post parent for "long-sleeve-tee-2" (post #894)
+[WARNING] Could not find the post parent for "sunglasses-2" (post #895)
+[WARNING] Could not find the post parent for "tshirt-2" (post #896)
+[WARNING] Could not find the post parent for "t-shirt-with-logo-1" (post #897)
+[WARNING] Could not find the post parent for "pennant-1-300&#215;300" (post #898)
+[WARNING] Could not find the post parent for "vneck-tee-2" (post #900)
+
+Max execution time after content import = 300
+
+---Importing widgets---
+Sidebar : 
+
+Tìm kiếm - No Title - Imported
+Rara: Featured Widget - No Title - Imported
+Danh mục - Categories - Imported
+Rara: Popular Post - Popular Posts - Imported
+blossomthemes_email_newsletter_widget - Newsletter - Site does not support widget
+RARA: Latest Tweets - Follow Us On - Imported
+Rara: Social Media - Subscribe and Follow - Imported
+HTML Tùy chỉnh - No Title - Imported
+Rara: Contact Widget - Get in Touch - Imported
+
+Phần Call To Action : 
+
+Rara: Call To Action - Build Your Online Team - Imported
+
+Phần đánh giá từ khách hàng : 
+
+Rara: Testimonial - No Title - Imported
+Rara: Testimonial - No Title - Imported
+Rara: Testimonial - No Title - Imported
+Rara: Testimonial - No Title - Imported
+
+Phần khách hàng : 
+
+Rara: Client Logo - No Title - Imported
+
+Footer 1 : 
+
+Văn bản - No Title - Imported
+
+Footer 2 : 
+
+Rara: Popular Post - Popular Posts - Imported
+
+Footer 3 : 
+
+Danh mục - Categories - Imported
+
+Footer 4 : 
+
+blossomthemes_email_newsletter_widget - Newsletter - Site does not support widget
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---rrdi/after_import---
+

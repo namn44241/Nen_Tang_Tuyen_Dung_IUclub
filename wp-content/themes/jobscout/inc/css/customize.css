@@ -1,0 +1,29 @@
+/** For hiding video section notice */
+#sub-accordion-section-header_image .customize-section-description-container .customize-section-title .customize-control-notifications-container{
+    visibility: hidden;
+    height: 0;    
+}
+
+.control-section-pro-section .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 700;
+	margin-left: 8px;
+  background: #2ace5e;
+  color: #fff;
+  border-color: #2ace5e;
+  padding: 0 20px 1px;
+}
+
+.control-section-pro-section .accordion-section-title .button:hover,
+.control-section-pro-section .accordion-section-title .button:focus{
+  background: #239045;
+  border-color: #239045;
+}
+
+.rtl .control-section-pro-section .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+#sub-accordion-section-sidebar-widgets-testimonial .customize-section-description{
+  display: none;
+}

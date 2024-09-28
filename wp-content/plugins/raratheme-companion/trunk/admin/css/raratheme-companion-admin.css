@@ -1,0 +1,1004 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ img{
+     max-width: 100%;
+     height: auto;
+ }
+
+ .rrtc-search-icon {
+    width: 100%;
+}
+
+select[id*="widget-raratheme_image_widget-"], 
+select[id*="widget-raratheme_popular_post-"] {
+    width: 100%;
+}
+
+.rara-font-awesome-list {
+    margin-bottom: 10px
+}
+
+.rara-font-awesome-list ul {
+    text-align: center;
+    height: 300px;
+    margin: 0
+}
+
+.rara-font-awesome-list li {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.rara-font-awesome-list li:hover,
+.rara-font-awesome-list li.selected {
+    background: #F6F6F6;
+}
+
+.rara-font-awesome-list {
+    margin-bottom: 10px
+}
+
+.rara-font-awesome-list ul {
+    text-align: center;
+    height: 300px;
+    margin: 0
+}
+
+.rara-font-awesome-list li {
+    width: 60px;
+    height: 60px;
+}
+
+.rara-font-awesome-list li:hover,
+.rara-font-awesome-list li.selected {
+    background: #F6F6F6;
+}
+
+.rara-font-awesome-list li {
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.rara-remove-icon {
+    background: url("../images/ico-delete.png");
+    top: 0;
+    display: block;
+    height: 16px;
+    padding: 0;
+    position: absolute;
+    text-indent: -9999px;
+    width: 16px;
+    cursor: pointer;
+    right: 0;
+}
+.rara-remove-image {
+    background: url("../images/ico-delete.png");
+    display: block;
+    height: 16px;
+    right: 0;
+    padding: 0;
+    position: absolute;
+    text-indent: -9999px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.link-image-repeat .widget-upload {
+    margin-bottom: 20px;
+}
+
+.rara-screenshot{margin: 20px 0 10px; position: relative;}
+.widget-client-logo-repeater .link-image-repeat .rara-screenshot:empty {
+    display: none;
+}
+
+.rara-remove-image{
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.rara-upload-button{
+	margin-top: 10px !important;
+}
+
+.widget-control-actions{margin-top: 10px;}
+
+.icon-receiver{
+	font-size: 35px;
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+	background: #F1F1F1;
+    position: relative;
+}
+
+.rara-font-awesome-list ul{
+   overflow: auto;
+   height: 315px;
+   border: 1px solid #eee;
+   padding-top: 10px;
+   margin-top: 5px;
+}
+
+.rara-font-group li{
+ display: inline-block;
+ border: 1px solid #ddd;
+ margin-right: 5px;
+ width: 55px;
+ height: 55px;
+ line-height: 55px;
+}
+.raratheme-social-template{
+    display: none;
+}
+.cta-bg-color>.wp-picker-container>a {
+    display: none;
+}
+
+/*=======================
+WIDGET CLIENT FAQ
+=======================*/
+.widget-client-faq-repeater .faqs-repeat {
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+}
+.widget-client-faq-repeater .faqs-repeat .cross {
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    font-size: 13px;
+    background: #fff;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    color: #f00;
+    cursor: pointer;
+}
+.widget-client-faq-repeater .faqs-repeat label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.widget-client-faq-repeater .faqs-repeat input[type="text"] {
+    margin-bottom: 30px;
+}
+.widget-client-faq-repeater .faqs-repeat textarea {
+    width: 100%;
+    height: 80px;
+}
+.widget-content label[for="widget-raratheme_companion_faqs_widget-2-toggle"] {
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+/*========================
+WIDGET CLIENT LOGO
+========================*/
+.widget-client-logo-repeater .link-image-repeat {
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: relative;
+}
+.widget-client-logo-repeater .link-image-repeat .cross {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: #f5f5f5;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    color: #f00;
+    border-radius: 100%;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+}
+.widget-client-logo-repeater .link-image-repeat label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.widget-client-logo-repeater .link-image-repeat label + br {
+    display: none;
+}
+.widget-client-logo-repeater .link-image-repeat .rara-upload-button {
+    margin-top: 0 !important;
+}
+.widget-client-logo-repeater .link-image-repeat .rara-screenshot {
+    display: block;
+    width: 100px;
+}
+.widget-client-logo-repeater .link-image-repeat input[value="Change"] + .rara-screenshot {
+    border: 1px solid #eee;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.widget-client-logo-repeater .link-image-repeat .rara-screenshot a.rara-remove-image {
+    top: -5px;
+    right: 5px;
+}
+
+.rtc-icons-list {
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    z-index: 9999;
+    width: 302px;
+    border: 1px solid #ddd;
+    height: 300px;
+    overflow: scroll;
+    margin: 0 -5px;
+    margin-top: -50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+.rtc-icons-list li {
+    padding: 0;
+    width: 55px;
+    list-style: none;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 22px;
+    line-height: 55px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+    height: 55px;
+}
+.button-one-info label, .button-two-info label {
+    width: 100px;
+    display: inline-block;
+}
+.button-one-info label + input[type="text"], 
+.button-two-info label + input[type="text"] {
+    width: calc(100% - 106px);
+}
+.raratheme-social-icon-wrap .raratheme-social-icons-field-handle {
+    width: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+.raratheme-social-icon-wrap .del-icon.dashicons-no {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 10px;
+    background: #e9e9e9;
+    display: inline-block;
+    font-size: 14px;
+    color: #cc444d;
+    cursor: pointer;
+}
+.widget-note {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+label[for="widget-rbp_author_widget-3-link_url"] {
+    margin-top: 20px;
+    display: block;
+}
+
+.rtc-sortable-links .rtc-social-icon-wrap,
+.rtc-contact-sortable-links .rtc-contact-social-icon-wrap, 
+.rtc-contact-sortable-links .rtc-contact-social-icon-wrap {
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    position: relative;
+}
+
+.rtc-sortable-links .rtc-social-icon-wrap .rtc-social-links-field-handle,
+.rtc-contact-sortable-links .rtc-contact-social-icon-wrap .rtc-contact-social-links-field-handle {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    font-size: 17px;
+}
+
+.rtc-sortable-links .rtc-social-icon-wrap label,
+.rtc-contact-sortable-links .rtc-contact-social-icon-wrap label {
+    display: block;
+    font-weight: 600;
+}
+
+.rtc-sortable-links .rtc-social-icon-wrap .example-text,
+.rtc-contact-sortable-links .rtc-contact-social-icon-wrap .example-text {
+    display: block;
+    margin-bottom: 10px;
+    color: #777;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.rtc-sortable-links .rtc-social-icon-wrap .rtc-social-links-field-handle + label, 
+.rtc-sortable-links .rtc-social-icon-wrap .rtc-social-links-field-handle + label + .example-text,
+.rtc-contact-sortable-links .rtc-contact-social-icon-wrap .rtc-contact-social-links-field-handle + label, 
+.rtc-contact-sortable-links .rtc-contact-social-icon-wrap .rtc-contact-social-links-field-handle + label + .example-text {
+    margin-left: 25px;
+}
+
+.rtc-sortable-links .rtc-social-icon-wrap input[type="text"],
+.rtc-contact-sortable-links .rtc-contact-social-icon-wrap input[type="text"] {
+    width: 100%;
+}
+
+.rtc-sortable-links .rtc-social-icon-wrap input[type="text"] + label,
+.rtc-contact-sortable-links .rtc-contact-social-icon-wrap input[type="text"] + label {
+    margin-top: 20px;
+}
+
+.rtc-sortable-links .rtc-social-icon-wrap .del-rtc-icon,
+.rtc-contact-sortable-links .rtc-contact-social-icon-wrap .del-rtc-icon, 
+.del-contact-rtc-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    background: #e5e5e5;
+    cursor: pointer;
+}
+
+.rtc-sortable-links .rtc-social-icon-wrap .rtc-icons-list,
+.rtc-contact-sortable-links .rtc-contact-social-icon-wrap .rtc-contact-icons-list {
+    top: 100px;
+    left: 26px;
+    width: auto;
+    right: 24px;
+    padding: 19px;
+}
+
+.rtc-sortable-links .rtc-social-icon-wrap .rtc-icons-list li:hover,
+.rtc-contact-sortable-links .rtc-contact-social-icon-wrap .rtc-contact-icons-list li:hover {
+    background: #f5f5f5;
+}
+
+.rtc-sortable-links .rtc-social-icon-wrap .rtc-icons-list #remove-icon-list,
+.rtc-contact-sortable-links .rtc-contact-social-icon-wrap .rtc-contact-icons-list #remove-icon-list {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 16px;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    background: #e5e5e5;
+    color: red;
+    cursor: pointer;
+}
+
+.rtc-option-side-note {
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+input.small-text {
+    width: 100%;
+}
+label.check-btn-wrap input[type="checkbox"] {
+   margin-left: 10px;
+}
+
+.social-search-wrap {
+    position: relative;
+}
+
+.social-search-wrap .rtc-icons-list {
+    margin: 0;
+    width: 100%;
+    padding: 30px 4px;
+    display: flex;
+    flex: 1;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.social-search-wrap .rtc-icons-list li {
+    width: 50px;
+    font-size: 22px;
+    margin-bottom: 5px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    float: none;
+}
+
+.social-search-wrap .rtc-icons-list li:hover {
+    background: #f9f9f9;
+}
+
+.rtc-contact-sortable-links li .rtc-icons-list #remove-icon-list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #eee;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: red;
+    cursor: pointer;
+}
+
+.rtc-contact-sortable-links li .rtc-icons-list #remove-icon-list:hover {
+    background: red;
+    color: #fff;
+}
+
+.btab-contact-social-links-sortable-handle, 
+.btab-social-links-sortable-handle {
+    width: 25px;
+    height: 25px;
+    background-color: #eee;
+    position: absolute;
+    top: 50%;
+    left: -13px;
+    border-radius: 100%;
+    cursor: move;
+    border: 1px solid #e5e5e5;
+    background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="%23555" d="M352.201 425.775l-79.196 79.196c-9.373 9.373-24.568 9.373-33.941 0l-79.196-79.196c-15.119-15.119-4.411-40.971 16.971-40.97h51.162L228 284H127.196v51.162c0 21.382-25.851 32.09-40.971 16.971L7.029 272.937c-9.373-9.373-9.373-24.569 0-33.941L86.225 159.8c15.119-15.119 40.971-4.411 40.971 16.971V228H228V127.196h-51.23c-21.382 0-32.09-25.851-16.971-40.971l79.196-79.196c9.373-9.373 24.568-9.373 33.941 0l79.196 79.196c15.119 15.119 4.411 40.971-16.971 40.971h-51.162V228h100.804v-51.162c0-21.382 25.851-32.09 40.97-16.971l79.196 79.196c9.373 9.373 9.373 24.569 0 33.941L425.773 352.2c-15.119 15.119-40.971 4.411-40.97-16.971V284H284v100.804h51.23c21.382 0 32.09 25.851 16.971 40.971z"></path></svg>');
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: center;
+}
+
+
+
+
+.raratheme-sc-icons, .widget-content input[type="text"], 
+.widget-content select, .widget-content input[type="number"] {
+    width: 100%;
+}
+
+.raratheme-option-side-note {
+    margin: 10px 0 20px 0;
+    display: block;
+}
+
+.raratheme-screenshot .raratheme-remove-image{
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    margin-top: 5px;
+}
+
+.image-text-widget-wrap{
+  padding: 10px 25px;
+  margin-bottom: 20px;
+  border: 1px solid #eee;
+  box-shadow: 1px 1px rgba(0,0,0,0.2);
+  position: relative;
+  margin-top: 30px;
+}
+
+.image-text-cancel{
+    border-bottom: 0;
+    width: 20px;
+    height: 20px;
+    background: #bc4848;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    display: block;
+}
+
+.image-text-cancel .dashicons{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.image-text-cancel:hover,
+.image-text-cancel:focus{
+    color: #fff;
+    background: #9c3b3b;
+}
+
+.raratheme-screenshot{
+    margin-top: 10px;
+}
+
+.rtc-icons-list {
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    z-index: 9999;
+    width: 225px;
+    border: 1px solid #ddd;
+    height: 300px;
+    overflow: scroll;
+    margin: 0 -5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+li.social-share-list {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 215px;
+    box-shadow: 1px 1px 1px #888888;
+    position: relative;
+}
+.twitter-widget-color-fields>.wp-picker-container>a
+{
+    display: none;
+}
+.rtc-icons-list li {
+    padding: 0;
+    width: 47px;
+    list-style: none;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 47px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    text-align: center;
+    height: 47px;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-right: 5px;
+}
+
+li.social-share-list, li.raratheme-social-icon-wrap {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 1px 1px 1px #888888;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+span.del-user-social-links , .del-raratheme-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #e5e5e5;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
+.del-raratheme-icon {
+
+}
+span.del-user-social-links:hover, .del-raratheme-icon:hover{
+    color: red;
+    cursor: pointer;
+}
+.raratheme-social-icons-sortable-handle:after, 
+.widget-client-logo-repeater .link-image-repeat::before,
+.raratheme-img-text-outer .image-text-widget-wrap::before {
+    content: "Ξ";
+    right: 0;
+    position: absolute;
+    top: 22%;
+    margin: 0 15px 0 5px;
+    font-weight: 800;
+    opacity: 0.5;
+}
+.taxonomy-category img.tax-img {
+    height: 75px;
+    width: 75px;
+}
+
+.social-share-list span.raratheme-social-icons-field-handle{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 4px;
+    width: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.social-share-list label{
+    vertical-align: top;
+}
+
+.social-share-list .example-text{
+    display: block;
+    margin-left: 39px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.widget-content .social-share-list input[type="text"]{
+    width: 80%;
+    display: block;
+    margin-left: 39px;
+}
+
+.social-share-list .link-label{
+    margin-left: 39px;
+    margin-bottom: 5px;
+}
+
+.raratheme-social-icon-wrap span.del-raratheme-icon {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    width: 20px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.raratheme-social-icon-wrap label{
+    vertical-align: top;
+}
+
+.raratheme-social-icon-wrap .example-text{
+    display: block;
+    margin-left: 39px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.raratheme-social-icon-wrap input[type="text"]{
+    width: 80%;
+    display: block;
+    margin-left: 39px;
+}
+
+.raratheme-social-icon-wrap .link-label{
+    margin-left: 39px;
+    margin-bottom: 5px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.raratheme-font-awesome-list {
+    margin-bottom: 10px
+}
+
+.raratheme-font-awesome-list ul {
+    text-align: center;
+    height: 300px;
+    margin: 0
+}
+
+.raratheme-font-awesome-list li {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.raratheme-font-awesome-list li:hover,
+.raratheme-font-awesome-list li.selected {
+    background: #F6F6F6;
+}
+
+.raratheme-font-awesome-list {
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+}
+
+.raratheme-font-awesome-list ul {
+    text-align: center;
+    height: 300px;
+    margin: 0
+}
+
+.raratheme-font-awesome-list li {
+    width: 60px;
+    height: 60px;
+}
+
+.raratheme-font-awesome-list li:hover,
+.raratheme-font-awesome-list li.selected {
+    background: #F6F6F6;
+}
+
+.raratheme-remove-icon {
+    background: url("../images/ico-delete.png");
+    top: 0;
+    display: block;
+    height: 16px;
+    padding: 0;
+    position: absolute;
+    text-indent: -9999px;
+    width: 16px;
+    cursor: pointer;
+    right: 0;
+}
+.raratheme-remove-image {
+    background: url("../images/ico-delete.png");
+    display: block;
+    height: 16px;
+    right: 0;
+    padding: 0;
+    position: absolute;
+    text-indent: -9999px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.raratheme-screenshot{
+    margin: 20px 0 10px; 
+    position: relative;
+}
+
+.raratheme-remove-image{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.widget-control-actions{margin-top: 10px;}
+
+.icon-receiver{
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    background: #F1F1F1;
+    position: relative;
+    min-height: 50px;
+}
+
+.raratheme-font-awesome-list ul{
+    overflow: auto;
+    height: 315px;
+}
+
+.raratheme-font-group li{
+    display: inline-block;
+    font-size: 22px;
+    line-height: 55px;
+    border: 1px solid rgba(0,0,0,0.05);
+    margin-right: 5px;
+    width: 55px;
+    height: 55px;
+}
+
+.search-itw-icons {
+    width: 100%;
+    margin-bottom: 15px;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.search-itw-icons:focus {
+    border-color: #d5d5d5;
+}
+
+.link-image-repeat {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: 2px 2px #eee;
+}
+.link-image-repeat .cross a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    background: #eee;
+    color: red;
+    display: block;
+}
+
+.widget-upload .raratheme-screenshot {
+    background: #f9f9f9;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.widget-client-logo-repeater .widget-upload .raratheme-screenshot img {
+    margin: 20px 10px;
+    max-width: 75%;
+}
+
+.widget-upload + .widget-feat-link {
+    margin-top: 20px;
+}
+
+.button-one-info label, .button-two-info label {
+    min-width: 100px;
+    display: inline-block;
+}
+
+.widget-content label {
+    display: block;
+}
+
+.widget-content .radio-btn-wrap {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 10px;
+    background: #e5e5e5;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+input:checked + .radio-btn-wrap {
+    background: #008ec2;
+    color: #fff;
+}
+
+.widget-content input[type="radio"] {
+    display: none;
+}
+
+.social-share-list span.raratheme-social-icons-field-handle, 
+.raratheme-social-icon-wrap .raratheme-social-links-field-handle, 
+.social-share-list span.raratheme-social-icons-field-handle {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    margin: 0;
+    font-size: 20px;
+}
+.social-share-list span.raratheme-social-icons-field-handle + label, 
+.raratheme-social-icon-wrap .raratheme-social-links-field-handle + label, 
+.social-share-list span.raratheme-social-icons-field-handle + label {
+    margin-left: 39px;
+}
+
+input[type="checkbox"] + label {
+    display: inline-block;
+}
+
+.raratheme-option-side-note b {
+    color: #000;
+}
+
+.raratheme-social-icon-wrap .rtc-icons-list, 
+.social-share-list input.user-social-profile + .rtc-icons-list {
+    top: 82px;
+    left: 54px;
+    width: 76%;
+    padding: 20px 10px;
+}
+
+.raratheme-social-icon-wrap .rtc-icons-list #remove-icon-list, 
+.raratheme-contact-social-icon-wrap .social-search-wrap .rtc-icons-list #remove-icon-list, 
+.social-share-list input.user-social-profile + .rtc-icons-list #remove-icon-list {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: red;
+    cursor: pointer;
+}
+
+.raratheme-social-icon-wrap .rtc-icons-list li:hover, 
+.raratheme-contact-social-icon-wrap .social-search-wrap .rtc-icons-list li:hover, 
+.social-share-list input.user-social-profile + .rtc-icons-list li:hover {
+    background: #f5f5f5;
+}
+
+.raratheme-contact-social-icon-wrap {
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px #eee;
+    padding: 10px 10px 10px 40px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.raratheme-contact-social-icon-wrap .raratheme-contact-social-links-field-handle {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.raratheme-contact-social-icon-wrap .raratheme-contact-social-links-field-handle svg {
+    font-size: 20px;
+}
+
+.raratheme-contact-social-icon-wrap .example-text {
+    margin-bottom: 5px;
+    display: block;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.raratheme-contact-social-icon-wrap .del-contact-raratheme-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    color: red;
+    background: #eee;
+    cursor: pointer;
+}
+
+.raratheme-social-icon-wrap .btab-social-links-sortable-handle:after, 
+.raratheme-contact-social-icon-wrap .btab-contact-social-links-sortable-handle::after, 
+.social-share-list .raratheme-social-icons-sortable-handle:after, 
+.widget-client-logo-repeater .link-image-repeat::before,
+.raratheme-img-text-outer .image-text-widget-wrap::before {
+    right: auto;
+    left: -13px;
+    top: 50%;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    margin: 0;
+    background: #eee;
+    border-radius: 100%;
+    color: #333;
+    opacity: 1;
+    cursor: move;
+}
+
+.raratheme-contact-social-icon-wrap .social-search-wrap {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.raratheme-contact-social-icon-wrap .social-search-wrap .rtc-icons-list {
+    left: 6px;
+    width: auto;
+    right: 4px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.elementor-panel .raratheme-font-group,
+.elementor-panel .rtc-icons-list{
+    display: flex;
+    flex-wrap:wrap;
+    font-size:18px;
+    height: 400px;
+    overflow: hidden;
+}
+.elementor-panel .raratheme-font-group li,
+.elementor-panel .rtc-icons-list li{
+    width:40px;
+    height:40px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
