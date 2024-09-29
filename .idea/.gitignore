@@ -1,0 +1,17 @@
+# WordPress core files
+# wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/cache/
+wp-content/backups/
+
+# Various temp files
+*.log
+.htaccess
+sitemap.xml
+sitemap.xml.gz
+
+# OS generated files
+.DS_Store
+Thumbs.db
